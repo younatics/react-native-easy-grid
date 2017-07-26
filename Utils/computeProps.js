@@ -1,6 +1,6 @@
 var React = require("react");
 import ReactNativePropRegistry
-  from "react-native";
+  from "react-native/Libraries/Renderer/shims/ReactNativePropRegistry";
 var _ = require("lodash");
 
 module.exports = function(incomingProps, defaultProps) {
